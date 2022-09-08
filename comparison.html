@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <title>Bootstrap Data Visualization</title>
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" media="screen">
+
+    <link rel="stylesheet" href="assets/css/styles.css" media="screen">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle Navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Plots
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+                <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        
+        <div class="col-md-12 col-sm-12">
+            <section id="imageNav-area">
+                <div class="imageNav-content">
+                    <h2 class="imageNav-header">Comparison: Latitude vs. X</h2>
+                    <hr class=my-4>
+                    <p>Click any plot to see in depth analysis</p>
+                    <div class="container">
+                        <div class="row imagetiles">
+                            <div class="col-lg-6 col-sm-12">
+                                <h3>Latitude vs. Max Temperature</h3>
+                                <a href="visualizations/temp.html"><img src="assets/images/lat_vs_temp.png" alt="Latitude vs. Max Temperature" class="imageNav-photo"></a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <h3>Latitude vs. Humidity</h3>
+                                <a href="visualizations/humidity.html"><img src="assets/images/lat_vs_humid.jpg" alt="Latitude vs. Humidity" class="imageNav-photo"></a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <h3>Latitude vs. Cloudiness</h3>
+                                <a href="visualizations/cloudiness.html"><img src="assets/images/lat_vs_cloud.png" alt="Latitude vs. Cloudiness" class="imageNav-photo"></a>
+                            </div>
+                            <div class="col-lg-6 col-sm-12">
+                                <h3>Latitude vs. Wind Speed</h3>
+                                <a href="visualizations/wind.html"><img src="assets/images/lat_vs_wind.png" alt="Latitude vs. Wind Speed" class="imageNav-photo"></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+</body>
+</html>
